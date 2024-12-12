@@ -1,0 +1,40 @@
+.mapa{
+    width: auto;
+    height: auto;
+    margin-top: 100px;
+    
+}
+
+.mapa iframe{
+    width: 55%;
+    align-content: center;
+    border-radius: 15px;
+    filter: drop-shadow(0 0 1rem rgb(121, 74, 74));
+    box-shadow: 1px 1px 1rem rgb(121, 74, 74);
+}
+hr {
+    width: 100%;
+    color: rgb(247, 223, 187);
+    border-radius: 15px;
+    filter: drop-shadow(0 0 1rem rgb(121, 74, 74));
+    box-shadow: 1px 1px 1rem rgb(121, 74, 74);
+}
+form [type="submit"]{
+    height: 50px;
+    width: 75px;
+    background-color: rgb(247, 223, 187);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}

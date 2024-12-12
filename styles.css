@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background-color: #b30000;
+    color: white;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+    background-color: #660000;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    font-size: 3.5em;
+    margin: 0;
+}
+
+nav {
+    padding-top: 20px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+nav input {
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.movie-review {
+    background-color: #8b0000;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    width: 250px;
+    text-align: center;
+}
+
+.movie-review img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h2 {
+    margin: 15px 0;
+}
+
+.stars {
+    font-size: 1.5em;
+    color: gold;
+}
+
+textarea {
+    width: 200px;
+    height: 50px;
+    margin-top: 9px;
+    border-radius: 5px;
+    border: none;
+    padding: 9px;
+    
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   align-items: center;
+   margin-top: 10px;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(247, 223, 187);
+    color: black;
+    font-weight: bold;
+    align-items: center;
+    margin-top: 10px;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+    align-items: center;
+}
+
+input{
+    margin-top: -2px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+   
+}

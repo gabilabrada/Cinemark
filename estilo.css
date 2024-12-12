@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+    background-color: #b60404;
+}
+   
+
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #191919af;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100px;
+}
+
+h2 {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+}
+
+.box input[type = "text"],.box input[type = "password"]{
+    border: 0;
+    background: rgba(55, 57, 58, 0.673);
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgb(247, 223, 187);
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+    width: 280px;
+    border-color: rgb(247, 211, 158);
+}
+
+.box input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid gray;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    transition: 0.25s;
+    cursor: pointer;
+
+}
+
+.box input[type = "submit"]:hover{
+    background: rgb(247, 211, 158);
+}

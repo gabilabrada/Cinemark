@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background-color: #b30000;
+    color: white;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+    background-color: #660000;
+    padding: 10px 20px;
+    text-align: center;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: rgb(247, 223, 187);
+}
+
+nav {
+    margin-top: 10px;
+    margin-left: 900px;
+   
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-weight: bold;
+
+}
+
+nav input {
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cinemark nav{ 
+    margin-right: 900px;
+}
+
+.cinemark li{ 
+    color:#e7cb90; 
+    position: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.movie-review {
+    background-color: #8b0000;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    width: 250px;
+    text-align: center;
+}
+
+.movie-review img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h3 {
+    margin: 15px 0;
+    text-align: center;
+}
+
+textarea {
+    width: 200px;
+    height: 50px;
+    margin-top: 9px;
+    border-radius: 5px;
+    border: none;
+    padding: 9px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   align-items: center;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+    align-items: center;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+   
+}
+
+
+  a:link{
+    text-decoration: white;
+    font-size: medium;
+    padding: 2px;
+    color: #f2f2f2;
+  }
+  a:visited {
+    color:#f2f2f2
+  }
+  a:hover {
+    color:#f2f2f2
+  }
+  a:active {
+    color:#f2f2f2
+  }
+
+  .social button{
+    width: 40px;
+    height: 40px;
+    margin-right: -100px;
+    border: 0;
+    cursor: pointer;
+    background-image: black;
+    border-radius: 5px;
+    transition: transform 0.5s;
+    text-align: center;
+
+}
+  .social button i{
+    font-size: 20px;
+    text-align: center;
+    color: #973131;
+    margin-top: 50%;
+    margin-left: 17px;
+}
+
+.social button:hover{
+    transform: scale(0.9);
+}
+input{
+    height: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+   margin-left: 1499px;
+   margin-right:100%;
+   margin-top: auto;
+}
+
+.movie-review a {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    color: #b11d22;
+    font-weight: bold;
+    
+}
+
+button{
+    background-color: #ecc16f;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  transition: transform 0.3s ease; /* Animação suave */
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  }
+
+button:hover {
+    background-color: #f0d5a3;
+    transform: scale(1.2);
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #b11d22;
+    color: white;
+}

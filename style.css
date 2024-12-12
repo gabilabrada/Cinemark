@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  background-color: #b60404;
+}
+
+header{
+    background-color: #b60404;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    white-space: nowrap;
+}
+
+.container{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    width: 1920px;
+    margin-left: -20px;
+}
+
+h1 {
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+    font-size: 50px;
+    color: rgb(247, 223, 187);
+}
+
+hr {
+
+    width: 90%;
+    color: rgb(247, 223, 187);
+}
+
+header img{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #b60404;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+    font-weight: bold;
+    list-style: none;
+}
+nav2 a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 300px;
+    margin-right:-250px;
+}
+
+
+.banner{
+    text-align: center;
+    background-image: url(img/foto\ scream.png);
+    color: white;
+    padding: 338px;
+    margin: 40px;
+}
+
+.schedule{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.schedule div{
+    background-color: #313131;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 6px;
+    flex: 1;
+    max-height: 150px;
+    max-width: 190px;
+    text-align: center;
+}
+
+.mapa{
+    width: auto;
+    height: auto;
+    margin-top: 100px;
+    
+}
+
+.mapa iframe{
+    width: 55%;
+    align-content: center;
+}
+
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #b11d22;
+    color: white;
+}
+
+.social{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: #c73737
+
+}
+
+.social button:hover{
+    transform: scale(0.9);
+    transition-duration: 0.5;
+    display: inline-block;
+}
